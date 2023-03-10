@@ -1,16 +1,16 @@
-import classes from './MealsSummary.module.css';
+import classes from "./MealsSummary.module.css";
 
 const MealsSummary = () => {
   return (
     <section className={classes.summary}>
-      <h2>Delicious Food, Delivered To You</h2>
+      <h2><span style={{border:'solid 3px white',padding:'4px',backgroundColor:'#8A2B06',borderRadius:'25px'}}>Delicious Food</span>, Delivered To You</h2>
       <p>
-        Choose your favorite meal from our broad selection of available meals
-        and enjoy a delicious lunch or dinner at home.
+        Nothing would be more tiresome than eating and drinking if God had not
+        made them a pleasure as well as a necessity.
       </p>
       <p>
-        All our meals are cooked with high-quality ingredients, just-in-time and
-        of course by experienced chefs!
+        Good bread is the most fundamentally satisfying of all foods; and good
+        bread with fresh butter, the greatest of feasts.!
       </p>
     </section>
   );

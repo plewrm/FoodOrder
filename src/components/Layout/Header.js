@@ -8,7 +8,7 @@ const Header = (props) => {
   return (
     <Fragment>
       <header className={classes.header}>
-        <h1>MEALS</h1>
+        <h1><span style={{border:'solid 4px white',padding:'2px',backgroundColor:'#4D1601',borderRadius:'25px'}}>FOOD</span>MEALS  Call to 66014444</h1>
         <HeaderCartButton onClick={props.onShowCart} />
       </header>
       <div className={classes['main-image']}>
